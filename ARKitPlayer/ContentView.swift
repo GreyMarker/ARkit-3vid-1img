@@ -34,7 +34,8 @@ struct ARViewContainer: UIViewRepresentable {
         
         // Dictionary to map image names to corresponding video file names
         let imageToVideoMap: [String: [String]] = [
-            "back-anchor": ["center-video-app", "left-video-app", "right-video-app"],
+            "card-1": ["center-video-app", "left-video-app", "right-video-app"],
+            "card-2": ["center-video-ID", "left-video-ID", "right-video-ID"]
             // Add more image-video triplets here
         ]
         
